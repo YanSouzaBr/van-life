@@ -54,14 +54,14 @@ export default function Login() {
                     name="email"
                     onChange={handleChange}
                     type="email"
-                    placeholder="Email address"
+                    placeholder="Email address = user@user"
                     value={loginFormData.email}
                 />
                 <input
                     name="password"
                     onChange={handleChange}
                     type="password"
-                    placeholder="Password"
+                    placeholder="Password = 123"
                     value={loginFormData.password}
                 />
                 <button

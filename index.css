@@ -126,25 +126,29 @@ footer {
     min-height: 350px;
     color: white;
     padding: 45px 23px;
+
 }
 
 .home-container h1 {
     font-weight: 700;
     font-size: 2.25rem;
     line-height: 42px;
+    text-align: center;
 }
 
 .home-container p {
     line-height: 24px;
+    text-align: center;
 }
 
 .home-container a {
+    margin-left: 20%;
     display: inline-block;
     text-align: center;
     text-decoration: none;
     background-color: #ff8c38;
     border: none;
-    width: 100%;
+    width: 60%;
     margin-top: 27px;
     padding-block: 0.75rem;
     color: white;
@@ -159,14 +163,29 @@ footer {
 }
 
 /*** ABOUT PAGE ***/
+@media (min-width: 1300px) {
+
+    .about-hero-image {
+        display: block;
+        margin:0 auto;
+        width: 1295px;
+    }
+
+}
+
 .about-hero-image {
+    padding-top: 2%;
     max-width: 100%;
 }
 
+
 .about-page-content {
+    padding-top: 2%;
     padding-inline: 23px;
     color: #161616;
     margin-bottom: 55px;
+    text-align: center;
+
 }
 
 .about-page-content h1 {
@@ -198,6 +217,35 @@ footer {
 }
 
 /*** VAN PAGES ***/
+
+@media (min-width: 890px) {
+
+
+    .van-image {
+        width: 450px;
+    }
+    .van-list-container {
+        text-align: center;
+    }
+
+    .van-list-filter-buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .van-list {
+        display: block;
+        margin: 0 auto;
+        max-width: 1300px;
+    }
+    
+
+}
+
+.van-image {
+    border: 2px solid white;
+}
+
 .van-list-container {
     padding-inline: 23px;
 }
