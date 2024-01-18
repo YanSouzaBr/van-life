@@ -8,3 +8,4 @@ This site, I did with help of scrimba, an online course that you can learn to co
 - [Netlify link](https://rococo-mermaid-56733a.netlify.app)
 ![image](https://github.com/YanSouzaBr/van-life/assets/129466666/95218a6b-b3a8-4b8d-b612-5a5bff1f756b)
 
+The X is meant to clear your login from local storage.
